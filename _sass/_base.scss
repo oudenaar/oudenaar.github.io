@@ -33,7 +33,7 @@ h3,
 h4,
 h5,
 h6 {
-    @include sans-serif-font;
+    @include sans-serif-font; color: blue;
 }
 
 p {
@@ -348,4 +348,3 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
-
